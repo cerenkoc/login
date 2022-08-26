@@ -1,0 +1,99 @@
+body{
+    background-color: blueviolet;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#container { 
+    background-color: white;
+    height: 800px;
+    width:600px; 
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.kutu {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;   
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    border-radius: 70px;
+    height: 50px;
+    width: 70%;
+    margin-left:10px;
+    margin-right: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 10px 18px #afa4a4;
+    border-style: none;
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    float:right;
+}
+
+#e-mail input  {
+    background: url(/img/e-mail.jpg) no-repeat scroll 2px 2px;
+    background-position:15px;
+    background-size: 30px; 
+    
+}
+#Password input {
+    background: url(/img/password.jpg) no-repeat scroll 2px 2px;
+    background-position: 15px;
+    background-size: 30px; 
+}
+#hatirla input  {
+    background: url(/img/checkbox.jpg) no-repeat scroll 2px 2px; 
+    background-size: 10px;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    float: left;
+}
+.remember {
+    float: left;
+    padding-right: 35px;
+    color: #aaa1a1;
+}
+.remember {
+    height: 20px;
+    padding-left: 56px;
+    
+}
+.content {
+    float: right;
+    padding-right: 35px;
+    color: #aaa1a1;
+}
+.sign-in input {
+    background-color: blueviolet;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    box-shadow: none; 
+}
+.sign-in input::placeholder {
+    color:white;
+}
+.footer {
+    margin-top: 310px;
+    padding-left: 140px;
+    color: #aaa1a1;
+}
+
+
+
+
